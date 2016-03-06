@@ -5,7 +5,7 @@
 
 ---
 
-**Quick project summary shown here.**
+**Use float to add navigation and two image icons to the header of a website.**
 
 - *Fork this repository.*
 - Write the HTML necessary for the header and navigation.
@@ -27,7 +27,7 @@
 Visually match the images in the “screenshots” folder and create the interaction shown in the linked video.
 
 - [Final screenshots in the “screenshots” folder.](screenshots)
-- [**Watch this video to see how it interacts.**](https://youtu.be/)
+- [**Watch this video to see how it interacts.**](https://youtu.be/QDH1dzDfTYY)
 
 ---
 
