@@ -1,0 +1,43 @@
+repo: "header-icons"
+canvasCourse: "467502"
+canvasAssignment: "4177773"
+
+naming: true
+commits: 1
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - 'header'
+      - 'header h1'
+      - 'header img'
+      - 'header nav'
+      - 'header ul'
+      - 'header a'
+    search:
+      - "Grains"
+      - "Home"
+      - "Cereals"
+      - "Legumes"
+      - "Merriweather"
+      - "grain-left.svg"
+      - "grain-right.svg"
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ["html", "box-sizing", "border-box"]
+      - ["body", "margin", 0]
+    search:
+      - "#d05c2e"
+      - "#a63f38"
+      - "float: left"
+      - "float: right"
+
+screenshots:
+  - path: "index.html"
+    sizes: [320, 650]
