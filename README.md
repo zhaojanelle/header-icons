@@ -1,11 +1,12 @@
-# Header icons
-
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, images**
-
+---
+summary: "Use float to add navigation and two image icons to the header of a website."
+time: "1 hour"
+deliverables: "1 HTML file, 1 CSS file, images"
 ---
 
-**Use float to add navigation and two image icons to the header of a website.**
+# Header icons
+
+## Overview
 
 - *Fork this repository.*
 - Write the HTML necessary for the header and navigation.
@@ -19,6 +20,9 @@
 - *Typefaces:* `Merriweather`
 - *Text sizes:* `2rem`, `1.125rem`
 - *Colours:* `#d05c2e`, `#a63f38`
+- *Margins:* `0`, `0 0 0.7rem`, `0.3rem`
+- *Paddings:* `0`, `0.5em 0 0`, `0.4rem 0`
+- *Grain icon width:* `40px`
 
 ---
 
@@ -35,7 +39,6 @@ Visually match the images in the “screenshots” folder and create the interac
 
 Drop this folder into your Markbot application. Make sure to fix all the errors. And submit to Canvas using Markbot.
 
----
 ---
 
 ## Optional challenges

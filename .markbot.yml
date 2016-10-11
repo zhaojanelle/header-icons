@@ -1,29 +1,34 @@
 repo: "header-icons"
-canvasCourse: "467502"
-canvasAssignment: "4177773"
+canvasCourse: "web-dev-1"
 
 naming: true
-commits: 1
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 1
+  allCommitted: true
+  allSynced: true
 
 html:
   - path: "index.html"
     valid: true
     bestPractices: true
     has:
+      - ['link[href*="Merriweather"]', 'The Google Font, `Merriweather` is missing']
       - 'header'
       - 'header h1'
       - 'header img'
       - 'header nav'
       - 'header ul'
       - 'header a'
+      - 'img[src*="grain-left.svg"]'
+      - 'img[src*="grain-right.svg"]'
     search:
       - "Grains"
       - "Home"
       - "Cereals"
       - "Legumes"
-      - "Merriweather"
-      - "grain-left.svg"
-      - "grain-right.svg"
 
 css:
   - path: "css/main.css"
@@ -31,6 +36,7 @@ css:
     bestPractices: true
     has:
       - ["html", "box-sizing", "border-box"]
+      - ['*', 'box-sizing', 'inherit']
       - ["body", "margin", 0]
     search:
       - "#d05c2e"
@@ -41,3 +47,15 @@ css:
 screenshots:
   - path: "index.html"
     sizes: [320, 650]
+
+functionality:
+  - path: 'index.html'
+    tests:
+      - |
+        let link = $('nav a');
+        let oldBg = css(link).backgroundColor;
+
+        hover('nav a', function () {
+          if (css(link).backgroundColor == oldBg) fail('The background colour of the navigaiton links don’t change when hovered')
+          pass();
+        });
