@@ -19,6 +19,7 @@ deliverables: "1 HTML file, 1 CSS file, images"
 
 - *Typefaces:* `Merriweather`
 - *Text sizes:* `2rem`, `1.125rem`
+- *Line height:* `1.5`
 - *Colours:* `#d05c2e`, `#a63f38`
 - *Margins:* `0`, `0 0 0.7rem`, `0.3rem`
 - *Paddings:* `0`, `0.5em 0 0`, `0.4rem 0`
