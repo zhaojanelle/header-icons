@@ -82,14 +82,12 @@ a, a:link {
   padding: .4rem 0;
   margin: 0;
   display: block;
-
 }
 
 .nav-cereals {
   border-left: 1px solid #a63f38;
   border-right: 1px solid #a63f38;
 }
-
 
 a:hover {
   background-color: #a63f38;
